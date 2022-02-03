@@ -12,7 +12,7 @@ enum AssetMenu: String, Identifiable, Decodable {
     case bankAccount
     case investment
     case loan
-    case insuarance
+    case insurance
     case creditCard
     case cash
     case realEstate
@@ -31,7 +31,7 @@ enum AssetMenu: String, Identifiable, Decodable {
             return "bitcoinsign.circle"
         case .loan:
             return "hand.wave"
-        case .insuarance:
+        case .insurance:
             return "lock.shield"
         case .creditCard:
             return "creditcard"
@@ -52,7 +52,7 @@ enum AssetMenu: String, Identifiable, Decodable {
             return "투자"
         case .loan:
             return "대출"
-        case .insuarance:
+        case .insurance:
             return "보험"
         case .creditCard:
             return "카드"
